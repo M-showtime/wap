@@ -1,0 +1,25 @@
+#sami{
+    background-image: url( "/wap/image/aboutme.jpg");
+    border-bottom: 2px solid #ccc;
+}
+
+body{
+    background-color: rgb(147, 109, 109)
+}
+img{
+    height:490px;
+
+}
+h1{
+    color: rgb(136, 165, 192);
+}
+
+div h1{
+ font-size: 100px;
+}
+strong{
+    color: yellow;
+}
+ol{
+    list-style-type: decimal;
+}
