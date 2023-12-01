@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  header {
+    color: black;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #logo h2{
+    margin-left: 12px;
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo img {
+    width: 30px; /* Adjust the size of your icon */
+    margin-right: 10px;
+  }
+  
+  .Sepreter {
+    
+    margin-left: 6px;
+    color: black;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  nav a:hover{
+    background-color: green;
+    
+  }
+  nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  #Welcome{
+    background-color: rgb(22, 65, 70);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+    margin: 0px;
+  }
+
+.continer{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+    
+}
+
+#para{
+    max-width: 300px;
+  
+    
+}
+
+
+.continer div{
+    margin-left: 200px;
+}
+
+#separator-line {
+  border-right: 1px solid black;
+  margin-top: 30px;
+}
+#text{
+  width: 240px;
+    height: 30px;
+}
+  
+.Textimag{
+    background-image: url("/wap/image/azure\ ad.png");
+    background-color: white;
+    background-size: 109px 28px;
+    background-repeat: no-repeat;  
+    
+    
+}
+
+#azureimg{
+  width: 140px;
+  height: 30px;
+}
+#submit{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    width: 109px;
+    height: 30px;
+
+    
+  }
+.taxt2{
+    display: flex;
+    margin-top: 20px;
+
+  }
+  #loginbutton{ 
+background-color: black;
+    color: white;
+    display: flex;
+    padding-left: 90px;
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    
+  }
+#checkbox{
+    margin-top: 10px;
+  }
+#main{
+    background-image: url(/wap/image/water.jpg);
+  
+  }
+
+footer{
+  text-align: right;
+  background-color: #ccc;
+  margin-top:70px;
+  
+}
+

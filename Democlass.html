@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -36,4 +36,75 @@
     </div>
     <footer>2023@</footer>
 </body>
-</html>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    #login-container {
+      display: flex;
+      align-items: flex-start; /* Adjust this property to change vertical alignment */
+      text-align: center;
+    }
+
+    #login-form {
+      margin-bottom: 20px;
+    }
+
+    #separator-line {
+      border-right: 1px solid #ccc;
+      height: 150px;
+      margin: 0 20px;
+    }
+
+    #paragraph-container {
+      max-width: 300px;
+    }
+
+    #submit-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #submit-btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="login-container">
+    <div id="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br><br>
+    </div>
+
+    <div id="separator-line"></div>
+
+    <div id="paragraph-container">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <button id="submit-btn">Submit</button>
+    </div>
+  </div>
+
+</body>
+</html
