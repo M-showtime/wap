@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+   
     
   }
   
@@ -121,14 +122,14 @@ background-color: black;
     margin-top: 10px;
   }
 #main{
+  
     background-image: url(/wap/image/water.jpg);
   
   }
-
 footer{
   text-align: right;
   background-color: #ccc;
-  margin-top:70px;
+  margin-top: 40PX;
   
 }
 
