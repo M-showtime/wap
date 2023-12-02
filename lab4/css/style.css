@@ -1,0 +1,100 @@
+body{
+    /* margin: 0px; */
+    background-image: url(/wap/image/worldmap.jpeg);
+ 
+}
+
+nav{
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 10px;
+    background-image: url(/wap/image/Movie.png);
+    color: white;
+    display: flex;
+
+}
+nav>h3{
+    margin-top:  15px;
+    font-size: x-large;
+}
+h2{
+    color: white;
+}
+.signout{
+   text-align: right;
+   margin-left: 430px;
+   display: flex;
+}
+
+.hello{
+    margin-top: 28px;
+}
+
+.sign{
+    background-color: white;
+    border-radius: 10px;
+  height: 45px;
+  width: 110px;
+  margin-top: 15px;
+  margin-left: 10px;
+ 
+}
+
+.separator-line{
+    
+    border-right: 2px solid white;
+    height: 50px;
+    width: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 10px;
+    
+}
+h2{
+    margin-left: 100px;
+  padding-top: 50px;
+}
+main{
+    display: flex;
+    margin-top: 50px;
+    /* background-image: url(/wap/image/worldmap.jpeg);
+    color: white; */
+    color: white;
+}
+#textfild{
+    width: 500px;
+   
+    /* border-color: rgb(169, 161, 161); */
+    /* border-color: rgb(234, 230, 230); */
+    margin-top: 20px;
+}
+.section{
+    margin-left: 140px;
+    font-size: x-large;
+}
+#suplier{
+    width: 500px;
+    
+}
+.form-select{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.button{
+    text-align: right;
+    margin-right: 160px;
+    margin-top: 30px;
+    
+  
+}
+#reset{
+margin-right: 20px;
+
+}
+#cancel{
+    margin-right: 20px;
+    
+}
+#addproduct{
+    
+   
+}

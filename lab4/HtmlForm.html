@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/wap/lab4/css/style.css">
+    <link rel="stylesheet" href="/wap/lab4/css/bootstrap.css">
+    <script src="/wap/lab4/js/bootstrap.js" defer></script>
+
+</head>
+<body>
+<header>
+    <nav>
+        <h3>MUM Golden Dome Market::: SRM System</h3>
+        <div class="separator-line"></div>
+        <h3>Products</h3>
+        <div class="separator-line"></div>
+        <h3>Suppliers</h3>
+        <div class="signout">
+        <h3 class="hello">Hello!</h3>
+        <button class="sign">Sign Out</button>
+    
+    </nav>
+    
+</header>
+<h2>New Product Form</h2>
+    <main>
+        
+        <div class="section">
+        <h6>Product Number</h6>
+        <input type="text" id="textfild" required>
+        <h6>Name</h6>
+        <input type="text" id="textfild" required>
+        <h6>Unit Price</h6>
+        <input type="text" placeholder="0.0" id="textfild" required>
+    </div>
+
+    <div class="section">
+        <h6>Quantity in stock</h6>
+        <input type="text" id="textfild" placeholder="0" required>
+        <h6>Supplier</h6>
+        <select class="form-select" aria-label="Default select example" required>
+            <option selected>select a suplier</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        <h6>Date supplied</h6>
+        <input type="text" placeholder="yyyy-mm-dd" required id="textfild">
+        <h6>Enter a valid Date</h6>
+
+    </div>
+</main>
+<div class="button">
+
+    <button type="button" class="btn btn-outline-secondary" id="reset">Reset</button>
+    <button type="button" class="btn btn-outline-danger" id="cancel">Cancel</button>
+    <button type="button" class="btn btn-outline-primary" id="addproduct">Add Product</button>
+
+
+</div>
+
+</body>
+</html>
