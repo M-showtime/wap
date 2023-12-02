@@ -76,9 +76,19 @@ body {
   border-right: 1px solid black;
   margin-top: 30px;
 }
-#text{
+#text1{
   width: 240px;
     height: 30px;
+}
+#text2{
+  width: 240px;
+    height: 30px;
+
+}
+#text3{
+  width: 240px;
+    height: 30px;
+
 }
   
 .Textimag{
@@ -103,7 +113,7 @@ body {
 
     
   }
-.taxt2{
+.inp{
     display: flex;
     margin-top: 20px;
 
