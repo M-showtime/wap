@@ -108,3 +108,27 @@
 
 </body>
 </html -->
+
+Regular expression
+
+1, Date with dashes or dots: mm-dd-yyyy
+
+^(0[1-9]|1[0-2])[-.](0[1-9]|[12][0-9]|3[0-1][-.]\d{4}$)
+
+2, Date with abbreviated month: dd-mm-yyyy   mmm is (Jan,Feb,Mar)
+
+^(0[1-9]|[12][0-9]|3[01])-(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)-\d{4}$
+
+3, Date with optional leading zeros: m/d/yyyy
+
+^(0?[1-9]|1[0-2])/(0?[1-9]|[12][0-9]|3[01])/\d{4}$
+
+4, Date with optional year: mm/dd or mm/dd/yyyy
+
+^(0[1-9]|1[0-2])/(0[1-9]|[12][0-9]|3[0-1])(/\d{4})?$
+
+
+5, Date with words: Month,dd,yyyy
+
+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (0[1-9]|[12][0-9]|3[01]), \d{4}$
+
